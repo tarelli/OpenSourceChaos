@@ -1,0 +1,28 @@
+<Lems>
+
+<Include file="BaseUnits.xml"/>
+<Include file="SingleSimulation.xml"/>
+<Include file="Lorenz1963.xml"/>
+
+<!-- Specify which component to run -->
+<Target component="sim1"/>
+
+<!-- parameter set for chaotic attractor -->
+<Lorenz id="lorenz" sigma="10" b="2.67" r="28"
+    x0="1.0" y0="1.0" z0="1.0"/>
+
+<Simulation id="sim1" length="100s" step="0.0001s" target="lorenz" method="rk4">
+
+    <Display id="d1" title="x timeseries"
+        timeScale="1s" xmin="0" xmax="100" ymin="-30" ymax="30">
+        <Line id ="x" quantity="x" scale="1" color="#ff0000" timeScale="1s"/>
+    </Display>
+    
+    <Display id="d2" title="y timeseries"
+        timeScale="1s" xmin="0" xmax="100" ymin="-30" ymax="30">
+        <Line id ="y" quantity="y" scale="1" color="#0000ff" timeScale="1s"/>
+    </Display>
+
+</Simulation>
+
+</Lems>
