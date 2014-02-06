@@ -11,7 +11,7 @@
 <Lorenz id="lorenz" sigma="10" b="2.67" r="28"
     x0="1.0" y0="1.0" z0="1.0"/>
 
-<Simulation id="sim1" length="100s" step="0.0001s" target="lorenz" method="rk4">
+<Simulation id="sim1" length="100s" step="0.001s" target="lorenz" method="rk4">
 
     <Display id="d1" title="x timeseries"
         timeScale="1s" xmin="0" xmax="100" ymin="-30" ymax="30">
