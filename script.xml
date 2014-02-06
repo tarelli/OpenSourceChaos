@@ -1,0 +1,29 @@
+Simulation.addWatchLists([{name:"vars",variablePaths:["x", "y"]}]);
+
+Simulation.startWatch();
+
+G.addWidget(Widgets.PLOT);
+
+var options = {yaxis:{min:-30,max:30},xaxis:{min:0,max:100,show:false}};
+
+Plot1.setOptions(options)
+
+Plot1.setName("X");
+
+Plot1.setPosition(194,140);
+
+G.addWidget(Widgets.PLOT);
+
+var options2 = {yaxis:{min:-30,max:30},xaxis:{min:0,max:100,show:false}};
+
+Plot2.setOptions(options)
+
+Plot2.setName("Y");
+
+Plot2.setPosition(350,140);
+
+Simulation.start();
+
+Plot1.plotData(x);
+
+Plot2.plotData(y);
