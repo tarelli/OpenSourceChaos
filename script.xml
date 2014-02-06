@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"vars",variablePaths:["x", "y"]}]);
+Simulation.addWatchLists([{name:"vars",variablePaths:["example1.x", "example1.y"]}]);
 
 Simulation.startWatch();
 
