@@ -1,8 +1,8 @@
 <Lems>
 
-<Include file="BaseUnits.xml"/>
-<Include file="SingleSimulation.xml"/>
-<Include file="Lorenz1963.xml"/>
+<Include url="https://raw.github.com/NeuroML/NeuroML2/master/NeuroML2CoreTypes/NeuroML2CoreTypes.xml"/>
+<Include url="https://raw2.github.com/tarelli/OpenSourceChaos/master/SingleSimulation.xml"/>
+<Include url="https://raw2.github.com/tarelli/OpenSourceChaos/master/Lorenz1963.xml"/>
 
 <!-- Specify which component to run -->
 <Target component="sim1"/>
