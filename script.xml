@@ -11,6 +11,7 @@ Plot1.setOptions(options)
 Plot1.setName("The butterfly effect");
 
 Plot1.setPosition(194,140);
+Plot1.setSize(700,500);
 
 Simulation.start();
 
