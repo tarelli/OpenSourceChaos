@@ -8,7 +8,7 @@ var options = {yaxis:{min:-30,max:30},xaxis:{min:0,max:100,show:false}};
 
 Plot1.setOptions(options)
 
-Plot1.setName("X");
+Plot1.setName("X/Y");
 
 Plot1.setPosition(194,140);
 
