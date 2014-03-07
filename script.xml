@@ -8,7 +8,7 @@ var options = {yaxis:{min:-15,max:30},xaxis:{min:-15,max:25,show:false}};
 
 Plot1.setOptions(options)
 
-Plot1.setName("X/Y");
+Plot1.setName("The butterfly effect");
 
 Plot1.setPosition(194,140);
 
