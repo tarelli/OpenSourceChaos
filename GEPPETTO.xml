@@ -10,5 +10,5 @@
     <tns:id>example1</tns:id>
   </tns:aspects>
   <tns:name>example1</tns:name>
-  <tns:script>https://raw2.github.com/tarelli/OpenSourceChaos/master/script.xml</tns:script>
+  <tns:script>https://raw.github.com/tarelli/OpenSourceChaos/master/script.xml</tns:script>
 </tns:simulation>
