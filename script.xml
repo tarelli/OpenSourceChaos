@@ -4,14 +4,15 @@ Simulation.startWatch();
 
 G.addWidget(Widgets.PLOT);
 
-var options = {yaxis:{min:-15,max:30},xaxis:{min:-15,max:25,show:false}};
+var options = {yaxis:{min:-30,max:30},xaxis:{min:-30,max:30,show:false}};
 
 Plot1.setOptions(options)
 
 Plot1.setName("The butterfly effect");
 
-Plot1.setPosition(194,140);
-Plot1.setSize(700,500);
+Plot1.setPosition(140,140);
+
+Plot1.setSize(600,900);
 
 Simulation.start();
 
